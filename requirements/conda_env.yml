@@ -1,0 +1,5 @@
+name: wagtail_demo
+channels:
+  - defaults
+dependencies:
+  - python=3.9.6
