@@ -37,5 +37,4 @@ def not_homepage(site_home):
 def test_homepage(page, admin_user, not_homepage):
     resp = page.goto(not_homepage.full_url)
     assert resp.status == 200
-    breakpoint()
     expect(page).to_have_title(not_homepage.title)
