@@ -37,7 +37,7 @@ conda activate wagtail_demo
 ### Install Python requirements
 
 ```sh
-pip install -r requirements/app.txt
+pip install -r requirements/apps.txt
 ```
 
 ### Bootstrap the database and super user account
