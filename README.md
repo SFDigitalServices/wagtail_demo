@@ -40,6 +40,12 @@ conda activate wagtail_demo
 pip install -r requirements/apps.txt
 ```
 
+Install browsers for Playwright
+
+```sh
+playwright install
+```
+
 ### Bootstrap the database and super user account
 
 Next you'll run [Django's][django] `manage.py` to initialize the database and create the super user account:
