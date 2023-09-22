@@ -1,0 +1,19 @@
+
+{% load wagtailcore_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% block content %}
+    <h3>TOC</h3>
+{% for block in page.body %}
+        <a href="#{% include_block block %}"></a>
+    {% endfor %}
+  {{ page.body }}
+{% endblock content %}
+</body>
+</html>
